@@ -299,6 +299,20 @@ section {
     border-radius: 2rem;
 }
 
+.text-container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.text-container p + p {
+    margin-top: 1rem;
+}
+
+.text-container p,
+.work-item p {
+    line-height: 1.5;
+}
+
 .details-containers {
     padding: 1.5rem;
     flex: 1;
